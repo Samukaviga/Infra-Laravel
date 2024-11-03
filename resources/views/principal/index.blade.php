@@ -121,7 +121,12 @@
                         <div class="card-header d-flex align-items-center">
                             <h5 class="card-title">Eventos/Datas Importantes</h5>
                             <ul class="chart-list-out student-ellips">
-                                <li class="star-menus"><a href="javascript:;"><i class="fas fa-ellipsis-v"></i></a></li>
+                                
+                                <a class=" star-menus" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-ellipsis-v"></i></a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="/editarEvento">Editar</a>
+								</div>
+                            
                             </ul>
                         </div>
                         <div class="card-body">
@@ -167,7 +172,10 @@
                         <div class="card-header d-flex align-items-center">
                             <h5 class="card-title ">Noticias Empresa</h5>
                             <ul class="chart-list-out student-ellips">
-                                <li class="star-menus"><a href="javascript:;"><i class="fas fa-ellipsis-v"></i></a></li>
+                                <a class=" star-menus" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-ellipsis-v"></i></a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">Editar</a>
+								</div>
                             </ul>
                         </div>
                         <div class="card-body">
@@ -202,7 +210,10 @@
                         <div class="card-header d-flex align-items-center">
                             <h5 class="card-title">Reuniões Semanais</h5>
                             <ul class="chart-list-out student-ellips">
-                                <li class="star-menus"><a href="javascript:;"><i class="fas fa-ellipsis-v"></i></a></li>
+                                <a class=" star-menus" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-ellipsis-v"></i></a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">Editar</a>
+								</div>
                             </ul>
                         </div>
                         <div class="card-body">

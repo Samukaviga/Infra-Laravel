@@ -32,7 +32,8 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/principal', [PrincipalController::class, 'index'])->middleware(['auth', 'verified'])->name('principal');
 Route::get('/alterarSenha', [PrincipalController::class, 'alterarSenha']);
-Route::get('/adicionarEvento', [PrincipalController::class, 'adicionarEvento']);
+Route::get('/adicionarEvento', [PrincipalController::class, 'adicionarEvento']); 
+Route::get('/editarEvento', [PrincipalController::class, 'editarEvento']); 
 Route::get('/adicionarReuniao', [PrincipalController::class, 'adicionarReuniao']);
 Route::get('/adicionarNoticia', [PrincipalController::class, 'adicionarNoticia']);
 Route::get('/perfil', [PrincipalController::class, 'perfil']); 

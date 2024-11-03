@@ -80,6 +80,17 @@ class PrincipalController extends Controller
         return view('principal.adicionar-evento');
     }
 
+    public function editarEvento()
+    {
+
+        $eventos = Evento::all();
+
+        $mensagemSucesso = session('mensagem.sucesso');
+
+        return view('principal.editar-evento')->with('mensagemSucesso', $mensagemSucesso)
+                                                        ->with('eventos', $eventos);
+    }
+
     public function adicionarEventoPost(Request $request)
     {
         
